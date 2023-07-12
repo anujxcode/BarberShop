@@ -1,4 +1,6 @@
 /* Parisienne font */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Great+Vibes&family=Parisienne&display=swap');
@@ -7,6 +9,9 @@
     --ff2:'Parisienne', cursive;
     --ff3: 'Great Vibes', cursive;
     --ff4: 'Allura', cursive;
+
+    /* colors */
+    --p-colors:#111;
 }
 
 /* common css */
@@ -28,44 +33,51 @@ body{
 
 /* hero section */
 .hero{
-    background-image:url("../images/banner.jpg");
-    background: linear-gradient(#009688 , rgba(0,0,0,0.5) ),url("../images/banner.jpg");
+    background-image:url("../images/banner2.jpg");
+    background: linear-gradient( rgba(0,0,0,0.5),#862B0D  ),url("../images/barber2.jpg");
     background-size:cover;
     background-position: center;
     width:100%;
     height: 100vh;
 }
 .hero .logo{
-    width: 138px;
+    text-align: center;
+    font-size: 28px;
     margin:auto;
     padding-top: 70px;
+    color:#FFC95F;
 }
 .hero .logo img{
     width:100%;
 }
 .hero .hero-text{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     color:#fff;
 }
 .hero .hero-text h1{
-    font-size: 110px;
+    font-size: 64px;
     font-weight: 800;
+    font-family: 'Gloock', serif;
+    max-width: 56%;
+    color:#FFF9C9;
+    margin:auto;
 }
 .hero .hero-text p{
     font-size: 20px;
-    color:#f4f4f4;
+    color:#FFF9C9;
     font-style: italic;
-    margin-top: -10px;
+    margin-top: 20px;
     font-weight: 300;
+
 }
 .hero .hero-text .hero-btn{
     margin-top:  60px;
 }
 .hero .hero-text .hero-btn a{
-    border:1px solid #fff;
+    border:1px solid #FFC95F;
     font-size: 16px;
-    color:#fff;
+    color:#FFC95F;
     padding: 12px 0px;
     text-decoration: none;
     display: inline-block;
@@ -113,7 +125,7 @@ body{
 .title p{
     font-size: 18px;
     font-weight: 500;
-    color:#009688;
+    color:#FFC95F;
     margin:auto;
     letter-spacing: 2px;
 }
@@ -137,7 +149,7 @@ body{
     text-align: left;
 }
 #features-bx .features h1{
-    color:#009688;
+    color:#FFC95F;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -152,10 +164,10 @@ body{
 }
 #features-bx .features .desc .icon{ 
   align-items: center;
-  border-right:2px solid #009688;
+  border-right:2px solid #FFC95F;
   /* border-radius: 7px; */
   font-size: 20px;
-  color:#009688;
+  color:#FFC95F;
   margin-right: 10px;
   padding-right: 20px;
 }
@@ -275,11 +287,11 @@ body{
     text-align: left;
 }
 .left-col p i{
-    color:#009688;
+    color:#FFC95F;
     margin-right: 10px;
 }
 .right-col p i{
-    color:#009688;
+    color:#FFC95F;
     margin-left: 10px;
 }
 
@@ -294,9 +306,9 @@ body{
 }
 #contact .social .fa-brands{
     font-size: 24px;
-    color:#009688;
+    color:#FFC95F;
     margin-right: 10px;
-    border:1px solid #009688;
+    border:1px solid #FFC95F;
     display: grid;
     width:50px;
     height: 50px;
@@ -304,7 +316,7 @@ body{
     transition:.5s;
 }
 #contact .social .fa-brands:hover{
-    background:#009688;
+    background:#FFC95F;
     color:#fff;
     margin-top: -5px;
 }
@@ -340,7 +352,7 @@ body{
     position: fixed;
     bottom:0;left:0;
     padding: 50px;
-    background-color: #009688;
+    background-color: #FFC95F;
     width:100%;
     text-align: center;
     opacity: .9;
@@ -383,7 +395,7 @@ body{
 }
 #open-btn{
     position:fixed;
-    background:#009688;
+    background:#FFC95F;
     bottom: 20px;
     left:50%;
     transform: translateX(-50%);
