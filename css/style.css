@@ -90,7 +90,7 @@ body{
 .hero .hero-text .hero-btn a span{
     width:0%;
     height: 100%;
-    background:#fff;
+    background:#FFC95F;
     position:absolute;
     top:0;
     left:0;
@@ -98,7 +98,7 @@ body{
     transition: 1s;
 }
 .hero .hero-text .hero-btn a:hover{
-    color:#333;
+    color:#fff;
 }
 .hero .hero-text .hero-btn a:hover span{
     width:100%;
